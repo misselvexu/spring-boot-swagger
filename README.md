@@ -1,6 +1,6 @@
 ## Acmedcare+ Spring Boot Starter Swagger
 
-> Spring Boot Starter Swagger2.x 
+> Spring Boot Starter Swagger
 
 ### Usage
 
