@@ -35,7 +35,6 @@ import java.util.stream.Collectors;
  * @author <a href="mailto:iskp.me@gmail.com">Elve.Xu</a>
  * @version ${project.version} - 2019-07-01.
  */
-@SuppressWarnings("Duplicates")
 @Configuration
 @Import(EmbeddedSwaggerConfiguration.class)
 public class SwaggerAutoConfiguration implements BeanFactoryAware {
