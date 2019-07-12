@@ -74,7 +74,14 @@ public class SwaggerConfigurationProperties implements Serializable {
 
     private String modelRef;
 
-    /** 参数放在哪个地方:header,query,path,body.form */
+    /**
+     * Parameter Type: 
+     * - HEADER
+     * - QUERY
+     * - PATH
+     * - Body
+     * - Form
+     */
     private String parameterType;
 
     private String required;
