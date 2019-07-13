@@ -13,6 +13,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import static com.acmedcare.framework.boot.swagger.config.SwaggerConfigurationProperties.SWAGGER_PROPERTIES_PREFIX;
+
 /**
  * {@link SwaggerConfigurationProperties}
  *
@@ -23,8 +25,10 @@ import java.util.Map;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@ConfigurationProperties(prefix = "spring.swagger")
+@ConfigurationProperties(prefix = SWAGGER_PROPERTIES_PREFIX)
 public class SwaggerConfigurationProperties implements Serializable {
+  
+  public static final String SWAGGER_PROPERTIES_PREFIX = "spring.swagger";
 
   private Boolean enabled;
 
