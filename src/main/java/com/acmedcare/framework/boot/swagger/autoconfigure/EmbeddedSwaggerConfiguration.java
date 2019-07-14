@@ -14,9 +14,5 @@ import springfox.documentation.swagger2.configuration.Swagger2DocumentationConfi
  */
 @Configuration
 @ConditionalOnProperty(name = "swagger.enabled", matchIfMissing = true)
-@Import({
-    Swagger2DocumentationConfiguration.class,
-    BeanValidatorPluginsConfiguration.class
-})
-public class EmbeddedSwaggerConfiguration {
-}
+@Import({Swagger2DocumentationConfiguration.class, BeanValidatorPluginsConfiguration.class})
+public class EmbeddedSwaggerConfiguration {}

@@ -27,7 +27,7 @@ import static com.acmedcare.framework.boot.swagger.config.SwaggerConfigurationPr
 @AllArgsConstructor
 @ConfigurationProperties(prefix = SWAGGER_PROPERTIES_PREFIX)
 public class SwaggerConfigurationProperties implements Serializable {
-  
+
   public static final String SWAGGER_PROPERTIES_PREFIX = "spring.swagger";
 
   private Boolean enabled;
@@ -71,21 +71,14 @@ public class SwaggerConfigurationProperties implements Serializable {
   @Data
   @NoArgsConstructor
   public static class GlobalOperationParameter {
-    
+
     private String name;
 
     private String description;
 
     private String modelRef;
 
-    /**
-     * Parameter Type: 
-     * - HEADER
-     * - QUERY
-     * - PATH
-     * - Body
-     * - Form
-     */
+    /** Parameter Type: - HEADER - QUERY - PATH - Body - Form */
     private String parameterType;
 
     private String required;
@@ -108,7 +101,7 @@ public class SwaggerConfigurationProperties implements Serializable {
     private String termsOfServiceUrl = "";
 
     private Contact contact = new Contact();
-    
+
     private String basePackage = "";
 
     private List<String> basePath = new ArrayList<>();
@@ -146,7 +139,7 @@ public class SwaggerConfigurationProperties implements Serializable {
     List<GlobalResponseMessageBody> delete = new ArrayList<>();
 
     List<GlobalResponseMessageBody> head = new ArrayList<>();
-    
+
     List<GlobalResponseMessageBody> options = new ArrayList<>();
 
     List<GlobalResponseMessageBody> trace = new ArrayList<>();
@@ -170,7 +163,7 @@ public class SwaggerConfigurationProperties implements Serializable {
     private String apiSorter = "alpha";
 
     private Boolean jsonEditor = false;
-    
+
     private Boolean showRequestHeaders = true;
 
     private String submitMethods = "get,post,put,delete,patch";
@@ -178,13 +171,13 @@ public class SwaggerConfigurationProperties implements Serializable {
     private Long requestTimeout = 10000L;
 
     private Boolean deepLinking;
-    
+
     private Boolean displayOperationId;
-    
+
     private Integer defaultModelsExpandDepth;
-    
+
     private Integer defaultModelExpandDepth;
-    
+
     private ModelRendering defaultModelRendering;
 
     private Boolean displayRequestDuration = true;
@@ -194,11 +187,11 @@ public class SwaggerConfigurationProperties implements Serializable {
     private Object filter;
 
     private Integer maxDisplayedTags;
-    
+
     private OperationsSorter operationsSorter;
-    
+
     private Boolean showExtensions;
-    
+
     private TagsSorter tagsSorter;
 
     /** Network */
