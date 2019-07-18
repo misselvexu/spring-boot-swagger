@@ -19,7 +19,15 @@
 
 ### Document
 
+### Reference
+
+- [Swagger Reference](https://swagger.io/solutions/getting-started-with-oas/)
+
 ### Issues
 
+- [issues](https://github.com/misselvexu/spring-boot-swagger/issues)
+
 ### Contract
+
+> iskp.me@gmail.com
 
