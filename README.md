@@ -22,6 +22,7 @@
 - Default Properties
 
 ```properties
+
 swagger.enabled=是否启用swagger，默认：true
 swagger.title=标题
 swagger.description=描述
@@ -41,10 +42,12 @@ swagger.globalOperationParameters[0].description=描述信息
 swagger.globalOperationParameters[0].modelRef=指定参数类型
 swagger.globalOperationParameters[0].parameterType=指定参数存放位置,可选header,query,path,body.form
 swagger.globalOperationParameters[0].required=指定参数是否必传，true,false
+
 ```
 - Group Properties
 
 ```properties
+
 swagger.docket.<name>.title=标题
 swagger.docket.<name>.description=描述
 swagger.docket.<name>.version=版本
@@ -65,10 +68,25 @@ swagger.docket.<name>.globalOperationParameters[0].name=参数名
 swagger.docket.<name>.globalOperationParameters[0].description=描述信息
 swagger.docket.<name>.globalOperationParameters[0].modelRef=指定参数存放位置,可选header,query,path,body.form
 swagger.docket.<name>.globalOperationParameters[0].parameterType=指定参数是否必传，true,false
+
 ```
+
 > 说明：`<name>`为swagger文档的分组名称，区分不同的Api.
 
+- Other Propeties
 
+```properties
+
+# json edit
+swagger.ui-config.json-editor=false
+
+# header show flag
+swagger.ui-config.show-request-headers=true
+
+# timeout
+swagger.ui-config.request-timeout=5000
+
+```
 
 ### Reference
 
