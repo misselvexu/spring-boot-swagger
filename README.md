@@ -19,7 +19,7 @@
 
 ### Document
 
-- Default Properties
+- 默认配置
 
 ```properties
 
@@ -44,7 +44,8 @@ swagger.globalOperationParameters[0].parameterType=指定参数存放位置,可�
 swagger.globalOperationParameters[0].required=指定参数是否必传，true,false
 
 ```
-- Group Properties
+
+- 分组配置
 
 ```properties
 
@@ -73,7 +74,7 @@ swagger.docket.<name>.globalOperationParameters[0].parameterType=指定参数是
 
 > 说明：`<name>`为swagger文档的分组名称，区分不同的Api.
 
-- Other Propeties
+- 其它配置
 
 ```properties
 
