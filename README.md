@@ -4,7 +4,7 @@
 
 ### 如何使用
 
-- Add Maven Pom Dependency
+- 添加依赖
 ```xml
 
 <dependency>
@@ -17,7 +17,7 @@
 
 - Add `@EnableSwagger2` Annotation On Startup Class
 
-### Document
+### 文档
 
 - 默认配置
 
