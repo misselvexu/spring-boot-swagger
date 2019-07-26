@@ -2,7 +2,7 @@
 
 > Spring Boot Starter Swagger
 
-### Usage
+### 如何使用
 
 - Add Maven Pom Dependency
 ```xml
@@ -89,7 +89,7 @@ swagger.ui-config.request-timeout=5000
 
 ```
 
-### Reference
+### 参考链接
 
 - [Swagger Reference](https://swagger.io/solutions/getting-started-with-oas/)
 
@@ -97,7 +97,7 @@ swagger.ui-config.request-timeout=5000
 
 - [issues](https://github.com/misselvexu/spring-boot-swagger/issues)
 
-### Contract
+### 联系我
 
 > iskp.me@gmail.com
 
